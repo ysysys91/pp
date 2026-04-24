@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오 | 메인</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="logo"> Portfolio</a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active">메인</a></li>
+            <li><a href="assignments.html">과제</a></li>
+            <li><a href="blog.html">블로그</a></li>
+            <li><a href="team.html">팀 프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero page-hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <span class="hero-label">포트폴리오 홈페이지</span>
+            <h1>정보보호학과<br />최윤성</h1>
+            <p>
+              수업 시간에 배운 HTML,CSS와 약간의 JAVASCRIPT를 활용하여 만든
+              포트폴리오입니다.과제,블로그,팀 프로젝트 내용을 보기 쉽게
+              정리했습니다.
+            </p>
+            <div class="hero-tags">
+              <p>
+  <button onmouseover="showhtml()" onmouseout="hide()">HTML5</button>
+  <button onmouseover="showcss()" onmouseout="hide()">CSS3</button>
+  <button onmouseover="showjs()" onmouseout="hide()">Javascript</button>
+</p>
+
+<img id="skillImage" src="" style="display:none; width:200px;">
+
+<script src="index.js"></script>
+            </div>
+            
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="section-header center">
+            <span class="eyebrow">Overview</span>
+            <h2>포트폴리오 구성</h2>
+            
+          </div>
+
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-number">01</div>
+              <h3>과제 페이지</h3>
+        
+            </article>
+
+            <article class="card">
+              <div class="card-number">02</div>
+              <h3>블로그 페이지</h3>
+              
+            </article>
+
+            <article class="card">
+              <div class="card-number">03</div>
+              <h3>팀 프로젝트 페이지</h3>
+              
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-box">
+        <p>© 2026 Portfolio Page</p>
+        <p>HTML · CSS · JavaScript</p>
+      </div>
+    </footer>
+  </body>
+</html>
